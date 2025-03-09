@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Project">Project</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+  </header>
+    <section id="Home">
+        <h3 class="heading">HI, I AM</h3>
+        <h1 class="heading">MILI PARUA</h1>
+        <p>I am a Web Developer</p>
+         <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="button-container">
+            <a href="resume.pdf" download class="resume-btn">Download Resume</a>
+            <a href="#contact" class="hire-btn">Hire Me</a>
+        </div>
+        <div class="home-image">
+            <img src="paruamili.jpg">
+        </div>
+        <div class="logo">
+            <img src="logo.jpg">
+        </div>
+    </section>
+
+    <section id="About">
+        <h1 class="heading">About</h1>
+        <div class="name">
+        <p> Hi, I am Mili Parua. I am a B.Tech Computer Science Engineering student with a passion for web development and technology. I have a solid foundation in HTML, CSS, and JavaScript, along with a growing knowledge of backend technologies. I enjoy problem-solving, designing efficient web solutions, and continuously learning new trends in the tech industry. My goal is to build user-friendly applications that make an impact. I am eager to work on innovative projects and collaborate with like-minded professionals.</p> 
+        </div>  
+    </section>
+
+    <section id="Education">
+        <h1 class="heading">Education</h1>
+        <div class="columns">
+            <div class="box">
+                <h2>1. Secondary Education</h2>
+                <p>WBBSE, DwarikNagar High School(2020), 80%</p>
+            </div>
+            <div class="box">
+                <h2>2. Higher Secondary Education</h2>
+                <p>WBCHSE, Namkhana Union High School(2022), 91%</p>
+            </div>
+            <div class="box">
+                <h2>3. BTech CSE AIML( Pursuing)</h2>
+                <p>Brainware University(2022-26)</p>
+            </div>
+        </div>
+    </section>
+    <section id="Skills">
+        <h1 class="heading">Skills</h1>
+        <div class="container">
+           <div class="Skills"><p>1.Java</p></div>
+           <div class="Skills"><p>2.Python</p></div>
+           <div class="Skills"><p>3.C</p></div>
+           <div class="Skills"><p>4.HTML</p></div>
+           <div class="Skills"><p>5.CSS</p></div>
+           <div class="Skills"><p>6.JavaScript</p></div>
+           <div class="Skills"><p>7.DSA</p></div>
+           <div class="Skills"><p>8.DBMS</p></div> 
+        </div>
+
+    </section>
+    <section id="Project">
+        <h1 class="heading">Projects</h1>
+        <div class="projects-container">
+            <div class="project-name project1">
+                <input type="checkbox" id="project1">
+                <label for="project1" class="project-title">Stone Paper Scissor</label>
+                <p class="project-description">A fun interactive game where a player competes against the computer. Built using JavaScript, it randomly selects Rock, Paper, or Scissors and determines the winner based on predefined rules. The project enhances logical thinking and user interaction</p>
+            </div>
+    
+            <div class="project-name project2">
+                <input type="checkbox" id="project2">
+                <label for="project2" class="project-title">Tic-tac-toe</label>
+                <p class="project-description">This is a classic two-player Tic Tac Toe game built using HTML, CSS, and JavaScript. Players take turns marking X or O on a 3x3 grid, and the game checks for a winner or a draw. It includes an interactive UI and logic for real-time gameplay</p>
+            </div>
+            <div class="project-name project3">
+                <input type="checkbox" id="project4">
+                <label for="project4" class="project-title">Voice Assistant</label>
+                <p class="project-description">This project is an AI-powered voice assistant that responds to voice commands. It uses Python with speech recognition and natural language processing (NLP) to perform tasks like searching the web, sending emails, and setting reminders. The assistant enhances user convenience and automation</p>
+            </div>
+    
+            <div class="project-name project4">
+                <input type="checkbox" id="project5">
+                <label for="project5" class="project-title">Breast Cancer Prediction</label>
+                <p class="project-description">This project uses machine learning to predict breast cancer based on medical data. It applies classification algorithms like Logistic Regression, Random Forest, and SVM to analyze features such as tumor size and cell texture. The model helps in early diagnosis, improving treatment outcomes.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="Contact">
+        <h2 class="heading">Contact Me</h2>
+        <p>If you'd like to work together or have any questions, feel free to reach out!</p>
+        
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> Email: mili.parua292004@gmail.com</p>
+            <p><i class="fas fa-phone"></i> Phone: +91 9883723092</p>
+            <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/mili-parua-658376310/" target="_blank">https://www.linkedin.com/in/mili-parua-658376310/</a></p>
+            <p><i class="fab fa-github"></i> <a href="https://github.com/yourgithub" target="_blank">https://github.com/MiliParua</a></p>
+
+        </div>
+    
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-copyright">
+                <p>&copy; 2025 Mili Parua. All rights reserved.</p>
+            </div>
+            <div class="footer-email">
+                <p>Contact: <a href="mailto:youremail@example.com">mili.parua292004@gmail.com</a></p>
+            </div>
+            <div class="footer-logo">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    
+    </footer>
+    
+
+
+</body>
+    
